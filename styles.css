@@ -1,0 +1,33 @@
+.header-section .container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    align-items: center; 
+    text-align: left;
+}
+
+.header-section .text-content {
+    max-width: 60%; 
+}
+
+.header-section .image-content img {
+    max-width: 100%; 
+    height: auto; 
+    object-fit: contain; 
+}
+
+@media (max-width: 768px) {
+    .header-section .container {
+        flex-direction: column; 
+        text-align: center; 
+    }
+
+    .header-section .text-content {
+        max-width: 100%; 
+        margin-bottom: 20px;
+    }
+
+    .header-section .image-content {
+        margin-top: 10px;
+    }
+}

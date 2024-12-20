@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Berimbolo Security</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="background-color: #1A2A42;">
+    <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="#">
+            <span class="fw-bold" style="font-size: 30px; color: #7882B5;">𝕭𝖊𝖗𝖎𝖒𝖇𝖔𝖑𝖔✅</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+
+                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                <li class="nav-item"><a class="nav-link" href="#products">Products</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Header Section -->
+<header class="header-section text-center text-md-start py-5 bg-light d-flex align-items-center">
+    <div class="container d-flex flex-column flex-md-row align-items-center">
+        <div class="text-content">
+            <h1 class="display-5">𝕭𝖊𝖗𝖎𝖒𝖇𝖔𝖑𝖔 Security</h1>
+            <p>A website providing general security services available to all parts of the world.</p>
+            <a href="#services" class="btn btn-primary">Learn more</a>
+        </div>
+        <div class="image-content ms-md-4 mt-4 mt-md-0">
+            <img src="images/Berimbolo remove.png" alt="image" class="img-fluid">
+        </div>
+    </div>
+</header>
+
+<!-- Services Section -->
+<section id="services" class="py-5">
+    <div class="container text-center">
+        <h2 class="mb-4">Our Services</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card mb-4">
+                    <img src="images/992226.jpg" class="card-img-top" alt="Cybersecurity">
+                    <div class="card-body">
+                        <h5 class="card-title">Complete Cybersecurity</h5>
+                        <p class="card-text">We provide you with complete protection from unethical hacker attacks.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card mb-4">
+                    <img src="images/images (1).jpg" class="card-img-top" alt="Hacker Protection">
+                    <div class="card-body">
+                        <h5 class="card-title">Hacker Protection</h5>
+                        <p class="card-text">Keep your data safe from black-hat hackers with our advanced solutions.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Products Section -->
+<section id="products" class="py-5 bg-light">
+    <div class="container text-center">
+        <h2 class="mb-4">Our Products</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="images/images (6).jpg" class="card-img-top" alt="Camera1">
+                    <div class="card-body">
+                        <h5 class="card-title">Indoor Surveillance Camera</h5>
+                        <p class="card-text">Perfect for office, school, and home use.</p>
+                        <p class="sell bg-danger text-light" style="border-radius: 20px;"><del>$100</del> $75</p>
+                        <a href="#" class="btn btn-primary">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="images/61troGS-EEL._AC_UF1000,1000_QL80_.jpg" class="card-img-top" alt="Camera2">
+                    <div class="card-body">
+                        <h5 class="card-title">Portable Surveillance Camera</h5>
+                        <p class="card-text">High accuracy for mobile detection indoors.</p>
+                        <p class="sell bg-danger text-light"style="border-radius: 20px;"><del>$180</del> $150</p>
+                        <a href="#" class="btn btn-primary">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="images/images (7).jpg" class="card-img-top" alt="Camera3">
+                    <div class="card-body">
+                        <h5 class="card-title">High-Resolution Camera</h5>
+                        <p class="card-text">Excellent performance for detailed surveillance.</p>
+                        <p class="sell bg-danger text-light" style="border-radius: 20px;"><del>$200</del> $170</p>
+                        <a href="#" class="btn btn-primary">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Us Section -->
+<section id="contact" class="py-5 text-center">
+    <div class="container text-center">
+        <h2 class="mb-4">Contact Us</h2>
+        <form onsubmit="return Check_the_form()">
+            <div class="mb-3">
+                <input type="text" class="form-control" id="N" placeholder="Your Name">
+            </div>
+            <div class="mb-3">
+                <input type="email" class="form-control" id="E" placeholder="Your Email">
+            </div>
+            <div class="mb-3">
+                <textarea class="form-control" rows="4" id="M" placeholder="Your Message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+    </div>
+</section>
+
+<!-- Social Media Icons -->
+<section class="text-center py-3">
+    <div class="container d-flex justify-content-center">
+        <a href="https://www.facebook.com/defl.gams?mibextid=ZbWKwL" target="_blank" ><i class="fa-brands fa-facebook m-3" style="color: #1a42ff; font-size: 2rem;"></i></a>
+        <i class="fa-brands fa-square-x-twitter m-3" style=" font-size: 2rem;"></i>
+        <i class="fa-solid fa-envelope m-3" style="font-size: 2rem;"></i>
+        <i class="fa-brands fa-linkedin m-3" style="color: #0077b5; font-size: 2rem;"></i>
+        <i class="fa-brands fa-instagram m-3" style="color: #bc2a8d; font-size: 2rem;"></i>
+    </div>
+</section>
+
+<script src="bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
