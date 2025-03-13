@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study AI</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/styel.css">
+</head>
+<body>
+    <div class="container">
+        <h1>HOW Can I Help You?</h1>
+        <div>
+            <div onclick="selectOption('summary')" class="btn-option" style="width: 155px;">Make a Summary</div>
+            <div onclick="selectOption('Quiz')" class="btn-option">Make a Quiz</div>
+            <div class="btn-option" onclick="selectOption('Notes')">Make Notes</div>
+        </div>
+        <div class="input-container">
+            <div class="upload-section">
+                <input type="file" id="file-input" style="display: none;" onchange="handleFileUpload()">
+                <img src="https://cdn-icons-png.flaticon.com/512/1828/1828817.png" class="upload-btn" onclick="document.getElementById('file-input').click()" alt="Upload File" >
+                <div id="file-name" class="file-name"></div>
+            </div>
+            <input type="text" placeholder="Type here..." id="inpUT">
+            <button class="send-btn snd" onclick= "deletes()">&#10148;</button>
+        </div>
+    </div>
+
+<script src="AI.JS"></script>
+</body>
+</html>
